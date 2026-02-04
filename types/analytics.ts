@@ -15,8 +15,8 @@ export interface Transaction{
         avatar?: string;
     };
     amount: number;
-    status: 'pending' | 'completed' | 'failed' | 'processing';
-    data: string;
+    status: 'pending' | 'success' | 'failed' | 'processing';
+    date: string;
 }
 
 export interface DashboardCardProps{
