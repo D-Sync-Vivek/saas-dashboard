@@ -77,7 +77,7 @@ export default function DashboardPage() {
         </div>
 
         {/* Right: Recent Sales Table (3 cols) */}
-        <div className="col-span-3 rounded-xl border bg-white shadow-sm overflow-hidden">
+        <div className="col-span-3 rounded-xl border bg-gray-800 shadow-sm overflow-hidden">
           <div className="p-4 bg-gray-50 border-b">
             <h2 className="font-semibold text-gray-800">Recent Sales</h2>
             <p className="text-sm text-gray-500">You made 265 sales this month.</p>
