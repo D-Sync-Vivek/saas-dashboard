@@ -34,7 +34,7 @@ export default async function DashboardPage() {
     t.status === "pending" || t.status === "processing").length
 
   // average order value
-  const avgOrderValue = salesCount > 0 ? totalRevenue / salesCount : 0;
+  const avgOrderValue = salesCount > 0 ? (totalRevenue / salesCount).toFixed(2) : 0;
 
   const stats = [
     {
