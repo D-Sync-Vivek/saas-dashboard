@@ -36,6 +36,16 @@ A full-stack, real-time analytics platform built to demonstrate modern web archi
 
 - **Forms:** React Hook Form + Zod
 
+## 📸 Screen Shot
+1. Dashboard Page
+![Dashboard Page](/public/dashboard-page.png) 
+
+2. Analytics Page
+![Dashboard Analytics Page](/public/dashboard-analytics.png)
+
+3. Setting Page
+![Dashboard Setting Page](/public/dashboard-setting.png)
+
 ## ⚙️ Getting Started
 
 1. **Clone the repository**
